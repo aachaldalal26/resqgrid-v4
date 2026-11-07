@@ -1,0 +1,5 @@
+[
+  {"id":"imd-1","agency":"IMD","level":"Yellow","hazard":"storm","title":"Thunderstorm with lightning likely over parts of central & east India","detail":"Isolated thunderstorms with gusty winds (30–40 km/h) possible in the evening hours.","validUntil":"Next 48 hours","source":"IMD – mock feed"},
+  {"id":"cwc-1","agency":"CWC","level":"Normal","hazard":"flood","title":"Major river levels within normal limits","detail":"No severe flood forecast in force for monitored stations.","validUntil":"Until further update","source":"CWC Flood Forecast – mock feed"},
+  {"id":"ndma-1","agency":"NDMA","level":"Advisory","hazard":"heatwave","title":"Stay hydrated during afternoon hours","detail":"General public advisory: avoid strenuous outdoor work between 12 pm and 4 pm.","validUntil":"Seasonal","source":"NDMA – mock feed"}
+]

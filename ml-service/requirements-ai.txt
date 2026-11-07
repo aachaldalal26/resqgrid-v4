@@ -1,0 +1,6 @@
+# Optional: real image AI (CLIP) for citizen photo verification.
+# Install AFTER requirements.txt. On Windows install CPU torch first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+-r requirements.txt
+transformers>=4.44
+torch>=2.3

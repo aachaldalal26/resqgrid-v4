@@ -1,0 +1,202 @@
+{
+  "brand": {
+    "tagline": "Predict the Risk. Alert the Community. Act Before Disaster."
+  },
+  "nav": {
+    "home": "Home",
+    "map": "Live Map",
+    "report": "Report Hazard",
+    "alerts": "Alerts",
+    "dashboard": "Command Center",
+    "login": "Login",
+    "logout": "Logout",
+    "prepare": "Prepare",
+    "subscribe": "Get alerts"
+  },
+  "cat": {
+    "Low": "Low",
+    "Moderate": "Moderate",
+    "High": "High",
+    "Critical": "Critical"
+  },
+  "hazard": {
+    "flood": "Flood",
+    "landslide": "Landslide",
+    "heatwave": "Heatwave",
+    "storm": "Storm",
+    "fire": "Fire",
+    "other": "Other",
+    "general": "General"
+  },
+  "a11y": {
+    "largeText": "Larger text",
+    "highContrast": "High contrast",
+    "language": "Language"
+  },
+  "status": {
+    "live": "Live data",
+    "delayed": "Data may be delayed",
+    "simulation": "Simulation running",
+    "mlOn": "AI model online",
+    "mlOff": "Rule engine (AI offline)",
+    "updated": "Updated"
+  },
+  "landing": {
+    "badge": "AI early warning for every city across India",
+    "title": "Know the risk on your street — before it arrives.",
+    "subtitle": "ResQGrid reads live rainfall, river levels, terrain, official advisories and citizen reports, predicts disaster risk for each city and district and tells you exactly what to do.",
+    "ctaMap": "Open live risk map",
+    "ctaReport": "Report a hazard",
+    "statZones": "Zones monitored",
+    "statHigh": "High / Critical zones",
+    "statAlerts": "Live alerts",
+    "statReports": "Community reports",
+    "featuresTitle": "Built for the moments that matter",
+    "f1t": "Localized risk prediction",
+    "f1d": "Rain, river discharge, elevation and slope combined into a 0–100 score for every locality.",
+    "f2t": "AI anomaly detection",
+    "f2d": "Machine learning flags sudden spikes in rainfall and river levels before they become emergencies.",
+    "f3t": "Real-time community alerts",
+    "f3d": "Location-based warnings with clear actions, in English, Hindi and Marathi.",
+    "f4t": "Verified citizen reports",
+    "f4d": "Photos are checked by an image AI and cross-verified with sensor data and nearby reports.",
+    "f5t": "Authority command center",
+    "f5d": "One screen for risk zones, report triage, resources and broadcast alerts.",
+    "f6t": "Safe route guidance",
+    "f6d": "Routes to the nearest shelter that steer around high-risk zones.",
+    "howTitle": "From data to action in four steps",
+    "h1": "Collect",
+    "h1d": "Weather, river and terrain data every 10 minutes",
+    "h2": "Predict",
+    "h2d": "AI scores flood, landslide, heat and storm risk",
+    "h3": "Alert",
+    "h3d": "Instant, localized warnings to residents",
+    "h4": "Act",
+    "h4d": "Safe routes, shelters and coordinated response",
+    "topZones": "Highest risk right now"
+  },
+  "map": {
+    "title": "Live risk map",
+    "legend": "Risk level",
+    "zones": "Zones by risk",
+    "select": "Tap a zone on the map to see details",
+    "why": "Why this risk?",
+    "tips": "What you should do",
+    "forecast": "Next 24h rain (mm) & temperature",
+    "hazards": "Hazard breakdown",
+    "safeRoute": "Safe route to nearest shelter",
+    "routing": "Planning safe route…",
+    "routeTo": "Safe route to",
+    "distance": "Distance",
+    "eta": "Est. time",
+    "avoids": "Avoids",
+    "noRoute": "Could not find a route",
+    "clearRoute": "Clear route",
+    "anomaly": "Anomaly detected",
+    "close": "Close",
+    "shelters": "Shelters",
+    "hospitals": "Hospitals",
+    "rescue": "Rescue teams",
+    "reports": "Reports",
+    "people": "Residents (approx.)",
+    "locating": "Getting your location…",
+    "noLocation": "Location unavailable — routing from the selected zone",
+    "back": "All zones"
+  },
+  "report": {
+    "title": "Report a hazard",
+    "subtitle": "Your report helps neighbours and authorities respond faster. Photos are checked by AI.",
+    "type": "What are you seeing?",
+    "description": "Describe the situation",
+    "descPh": "e.g. Water entering houses near the bridge, about knee deep",
+    "photo": "Add a photo",
+    "photoHint": "Clear photos get verified faster",
+    "location": "Location",
+    "useGps": "Use my location",
+    "pickMap": "or tap on the map",
+    "submit": "Submit report",
+    "submitting": "Analysing & submitting…",
+    "success": "Report received",
+    "ai": "AI photo check",
+    "verification": "Verification score",
+    "statusLabel": "Status",
+    "another": "Report another",
+    "needLocation": "Please set your location first",
+    "pending": "Pending review",
+    "verified": "Verified",
+    "rejected": "Rejected"
+  },
+  "alerts": {
+    "title": "Alerts",
+    "live": "Live alerts",
+    "official": "Official advisories",
+    "community": "Community reports",
+    "none": "No alerts right now. Stay safe!",
+    "enable": "Enable notifications",
+    "enabled": "Notifications on",
+    "myZone": "My area",
+    "allZones": "All areas",
+    "issued": "Issued by",
+    "valid": "Valid until"
+  },
+  "alertTitle": "{category} {hazard} risk — {zone}",
+  "safety": {
+    "flood": [
+      "Move to upper floors or higher ground now",
+      "Avoid walking or driving through flood water — 15 cm can knock you down",
+      "Switch off electricity at the main if water enters",
+      "Keep your phone charged and follow official updates"
+    ],
+    "landslide": [
+      "Move away from steep slopes, hill bases and ghat roads",
+      "Watch for cracks, tilting trees or sudden muddy streams",
+      "Avoid travel on ghat roads until cleared",
+      "Evacuate immediately if you hear rumbling"
+    ],
+    "heatwave": [
+      "Stay indoors between 12 pm and 4 pm",
+      "Drink water regularly, even if not thirsty",
+      "Check on elderly neighbours and children",
+      "Seek medical help for dizziness or confusion"
+    ],
+    "storm": [
+      "Stay indoors, away from windows",
+      "Secure loose objects on balconies and terraces",
+      "Stay away from trees, hoardings and power lines",
+      "Keep a torch and power bank ready"
+    ],
+    "fire": [
+      "Leave the area and call 101",
+      "Stay low to avoid smoke",
+      "Do not use lifts"
+    ],
+    "other": [
+      "Stay alert and follow official instructions"
+    ],
+    "general": [
+      "Stay alert and follow official instructions"
+    ]
+  },
+  "home": {
+    "kicker": "Live across 35 Indian cities",
+    "h1a": "Know the risk",
+    "h1b": "before it reaches your street.",
+    "search": "Search your city — e.g. Mumbai, Guwahati, Delhi",
+    "useLoc": "Use my location",
+    "openMap": "Open on live map",
+    "now": "India right now",
+    "nowSub": "Live hazard picture, updated every few seconds",
+    "citiesAt": "cities High or Critical",
+    "worst": "Worst",
+    "drill": "Run a disaster drill",
+    "drillSub": "Watch ResQGrid predict, alert and route in real time — start a scenario and open the live map.",
+    "reset": "Back to live data",
+    "who": "One platform, every stakeholder",
+    "flow": "How ResQGrid thinks",
+    "flowSub": "From raw signals to action in seconds",
+    "ready": "How prepared are you?",
+    "readySub": "Learn what to do, practise real scenarios and track your preparedness score.",
+    "startPrep": "Start preparing",
+    "calm": "All clear — no major hazard right now"
+  }
+}

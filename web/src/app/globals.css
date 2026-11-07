@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f5f8ff;
+  --ink: #0b1f4d;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased; }
+
+/* ---------- Accessibility toggles ---------- */
+html.large-text { font-size: 118%; }
+html.high-contrast body { background: #fff; color: #000; }
+html.high-contrast .card,
+html.high-contrast .glass { background: #fff !important; border: 2px solid #000 !important; box-shadow: none !important; }
+html.high-contrast a, html.high-contrast button { text-decoration-thickness: 2px; }
+html.high-contrast .text-slate-500, html.high-contrast .text-slate-600 { color: #111 !important; }
+:focus-visible { outline: 3px solid #2563eb; outline-offset: 2px; border-radius: 6px; }
+
+/* ---------- Citizen UI ---------- */
+@layer components {
+  .card { @apply rounded-2xl border border-slate-200/80 bg-white shadow-[0_1px_2px_rgba(11,31,77,.04),0_8px_24px_-12px_rgba(11,31,77,.15)]; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition active:scale-[.98] disabled:opacity-50 disabled:pointer-events-none; }
+  .btn-primary { @apply btn bg-brand-500 text-white hover:bg-brand-600 shadow-[0_8px_20px_-8px_rgba(37,99,235,.7)]; }
+  .btn-ghost { @apply btn border border-slate-200 bg-white text-slate-700 hover:bg-slate-50; }
+  .btn-danger { @apply btn bg-red-600 text-white hover:bg-red-700; }
+  .input { @apply w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm outline-none focus:border-brand-500 focus:ring-4 focus:ring-brand-100; }
+  .label { @apply mb-1.5 block text-sm font-semibold text-slate-700; }
+}
+
+.hero-grid {
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(59,130,246,.35), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(34,211,238,.25), transparent 35%),
+    linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+  background-size: auto, auto, 32px 32px, 32px 32px;
+}
+
+/* ---------- Leaflet ---------- */
+.leaflet-container { font-family: inherit; background: #e5ecf6; }
+.res-pin {
+  width: 22px; height: 22px; border-radius: 7px; color: #fff; font: 700 11px/22px Inter, sans-serif;
+  text-align: center; border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.35);
+}
+.zone-critical { animation: zonePulse 1.6s ease-in-out infinite; }
+@keyframes zonePulse { 0%,100% { fill-opacity: .55; } 50% { fill-opacity: .25; } }
+.user-dot { width: 16px; height: 16px; border-radius: 99px; background: #2563eb; border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(37,99,235,.25); }
+
+/* ---------- Toasts ---------- */
+@keyframes slideIn { from { transform: translateY(-12px); opacity: 0; } to { transform: none; opacity: 1; } }
+.animate-slide-in { animation: slideIn .35s ease-out; }
+
+/* ======================================================================
+   COMMAND CENTER (dashboard) — dark "mission control" theme
+   ====================================================================== */
+.cc { background: radial-gradient(1200px 600px at 10% -10%, #0f2a4a 0%, transparent 60%), radial-gradient(900px 500px at 110% 10%, #2a0f2e 0%, transparent 55%), #060a13; color: #dbe6ff; }
+.cc-panel { position: relative; border: 1px solid #1b2740; background: linear-gradient(180deg, rgba(16,26,46,.92), rgba(10,17,31,.92)); border-radius: 18px; }
+.cc-panel::before {
+  content: ''; position: absolute; inset: -1px; border-radius: 18px; padding: 1px; pointer-events: none;
+  background: linear-gradient(135deg, rgba(34,211,238,.35), transparent 30%, transparent 70%, rgba(168,85,247,.25));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude;
+}
+@layer components {
+  .cc-title { @apply flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-cc-mute; }
+}
+.cc-scan { background-image: repeating-linear-gradient(0deg, rgba(255,255,255,.025) 0 1px, transparent 1px 3px); }
+.cc .leaflet-container { background: #0b1220; }
+.cc .leaflet-control-attribution { background: rgba(6,10,19,.7) !important; color: #6b7a99 !important; }
+.cc .leaflet-control-attribution a { color: #8fb4ff !important; }
+.cc ::-webkit-scrollbar { width: 6px; height: 6px; }
+.cc ::-webkit-scrollbar-thumb { background: #22304d; border-radius: 9px; }
+
+.ecg-line { stroke-dasharray: 420; stroke-dashoffset: 420; animation: ecg linear infinite; }
+@keyframes ecg { to { stroke-dashoffset: 0; } }
+.hex-critical { animation: hexGlow 1.2s ease-in-out infinite; }
+@keyframes hexGlow { 0%,100% { filter: drop-shadow(0 0 2px rgba(239,68,68,.6)); } 50% { filter: drop-shadow(0 0 10px rgba(239,68,68,1)); } }
+.live-dot { position: relative; }
+.live-dot::after { content: ''; position: absolute; inset: -4px; border-radius: 99px; border: 2px solid currentColor; opacity: .6; animation: ping 1.5s cubic-bezier(0,0,.2,1) infinite; }
+@keyframes ping { 75%,100% { transform: scale(1.8); opacity: 0; } }
+@keyframes feedIn { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+.feed-in { animation: feedIn .4s ease-out; }
+
+/* ---------- Home page ---------- */
+.hero-aurora {
+  background:
+    radial-gradient(700px 400px at 15% 0%, rgba(34,211,238,.18), transparent 60%),
+    radial-gradient(600px 400px at 90% 20%, rgba(59,130,246,.25), transparent 60%),
+    radial-gradient(500px 300px at 60% 100%, rgba(239,68,68,.12), transparent 60%),
+    linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size: auto, auto, auto, 40px 40px, 40px 40px;
+}
+.hero-grid-lines {
+  background-image: linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.marquee { animation: marquee 45s linear infinite; }
+.marquee:hover { animation-play-state: paused; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.flow-dash { background: repeating-linear-gradient(90deg, currentColor 0 6px, transparent 6px 12px); background-size: 24px 2px; animation: flow 0.8s linear infinite; }
+@keyframes flow { to { background-position: 24px 0; } }
+@media (prefers-reduced-motion: reduce) { .marquee, .flow-dash, .ecg-line, .zone-critical, .hex-critical { animation: none !important; } }

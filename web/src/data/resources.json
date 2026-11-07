@@ -1,0 +1,742 @@
+[
+ {
+  "id": "sh-delhi",
+  "type": "shelter",
+  "name": "Relief camp – Delhi",
+  "lat": 28.6739,
+  "lng": 77.279,
+  "capacity": 5000,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-mumbai",
+  "type": "shelter",
+  "name": "Relief camp – Mumbai",
+  "lat": 19.136,
+  "lng": 72.9477,
+  "capacity": 5000,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-kolkata",
+  "type": "shelter",
+  "name": "Relief camp – Kolkata",
+  "lat": 22.6326,
+  "lng": 88.4339,
+  "capacity": 3750,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-chennai",
+  "type": "shelter",
+  "name": "Relief camp – Chennai",
+  "lat": 13.1427,
+  "lng": 80.3407,
+  "capacity": 2750,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-bengaluru",
+  "type": "shelter",
+  "name": "Relief camp – Bengaluru",
+  "lat": 13.0316,
+  "lng": 77.6646,
+  "capacity": 3250,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-hyderabad",
+  "type": "shelter",
+  "name": "Relief camp – Hyderabad",
+  "lat": 17.445,
+  "lng": 78.5567,
+  "capacity": 2625,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-pune",
+  "type": "shelter",
+  "name": "Relief camp – Pune",
+  "lat": 18.5804,
+  "lng": 73.9267,
+  "capacity": 1750,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-ahmedabad",
+  "type": "shelter",
+  "name": "Relief camp – Ahmedabad",
+  "lat": 23.0825,
+  "lng": 72.6414,
+  "capacity": 2125,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-surat",
+  "type": "shelter",
+  "name": "Relief camp – Surat",
+  "lat": 21.2302,
+  "lng": 72.9011,
+  "capacity": 1875,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-jaipur",
+  "type": "shelter",
+  "name": "Relief camp – Jaipur",
+  "lat": 26.9724,
+  "lng": 75.8573,
+  "capacity": 1000,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-jodhpur",
+  "type": "shelter",
+  "name": "Relief camp – Jodhpur",
+  "lat": 26.2989,
+  "lng": 73.0943,
+  "capacity": 350,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-lucknow",
+  "type": "shelter",
+  "name": "Relief camp – Lucknow",
+  "lat": 26.9067,
+  "lng": 81.0162,
+  "capacity": 950,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-varanasi",
+  "type": "shelter",
+  "name": "Relief camp – Varanasi",
+  "lat": 25.3776,
+  "lng": 83.0439,
+  "capacity": 425,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-patna",
+  "type": "shelter",
+  "name": "Relief camp – Patna",
+  "lat": 25.6541,
+  "lng": 85.2076,
+  "capacity": 625,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-guwahati",
+  "type": "shelter",
+  "name": "Relief camp – Guwahati",
+  "lat": 26.2045,
+  "lng": 91.8062,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-imphal",
+  "type": "shelter",
+  "name": "Relief camp – Imphal",
+  "lat": 24.877,
+  "lng": 94.0068,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-gangtok",
+  "type": "shelter",
+  "name": "Relief camp – Gangtok",
+  "lat": 27.3989,
+  "lng": 88.6765,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-bhubaneswar",
+  "type": "shelter",
+  "name": "Relief camp – Bhubaneswar",
+  "lat": 20.3561,
+  "lng": 85.8945,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-puri",
+  "type": "shelter",
+  "name": "Relief camp – Puri",
+  "lat": 19.8735,
+  "lng": 85.9012,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-visakhapatnam",
+  "type": "shelter",
+  "name": "Relief camp – Visakhapatnam",
+  "lat": 17.7468,
+  "lng": 83.2885,
+  "capacity": 575,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-kochi",
+  "type": "shelter",
+  "name": "Relief camp – Kochi",
+  "lat": 9.9912,
+  "lng": 76.3373,
+  "capacity": 550,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-thiruvananthapuram",
+  "type": "shelter",
+  "name": "Relief camp – Thiruvananthapuram",
+  "lat": 8.5841,
+  "lng": 77.0066,
+  "capacity": 425,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-wayanad",
+  "type": "shelter",
+  "name": "Relief camp – Wayanad",
+  "lat": 11.6685,
+  "lng": 76.153,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-mangaluru",
+  "type": "shelter",
+  "name": "Relief camp – Mangaluru",
+  "lat": 12.9741,
+  "lng": 74.926,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-panaji",
+  "type": "shelter",
+  "name": "Relief camp – Panaji",
+  "lat": 15.5509,
+  "lng": 73.8978,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-dehradun",
+  "type": "shelter",
+  "name": "Relief camp – Dehradun",
+  "lat": 30.3765,
+  "lng": 78.1022,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-shimla",
+  "type": "shelter",
+  "name": "Relief camp – Shimla",
+  "lat": 31.1648,
+  "lng": 77.2434,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-srinagar",
+  "type": "shelter",
+  "name": "Relief camp – Srinagar",
+  "lat": 34.1437,
+  "lng": 74.8673,
+  "capacity": 375,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-chandigarh",
+  "type": "shelter",
+  "name": "Relief camp – Chandigarh",
+  "lat": 30.7933,
+  "lng": 76.8494,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-amritsar",
+  "type": "shelter",
+  "name": "Relief camp – Amritsar",
+  "lat": 31.694,
+  "lng": 74.9423,
+  "capacity": 325,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-bhopal",
+  "type": "shelter",
+  "name": "Relief camp – Bhopal",
+  "lat": 23.3199,
+  "lng": 77.4826,
+  "capacity": 600,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-nagpur",
+  "type": "shelter",
+  "name": "Relief camp – Nagpur",
+  "lat": 21.2058,
+  "lng": 79.1582,
+  "capacity": 725,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-raipur",
+  "type": "shelter",
+  "name": "Relief camp – Raipur",
+  "lat": 21.3114,
+  "lng": 81.6996,
+  "capacity": 375,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-ranchi",
+  "type": "shelter",
+  "name": "Relief camp – Ranchi",
+  "lat": 23.4041,
+  "lng": 85.3796,
+  "capacity": 375,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "sh-port-blair",
+  "type": "shelter",
+  "name": "Relief camp – Port Blair",
+  "lat": 11.6834,
+  "lng": 92.7965,
+  "capacity": 300,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "hp-aiims-delhi",
+  "type": "hospital",
+  "name": "AIIMS New Delhi",
+  "lat": 28.5672,
+  "lng": 77.21,
+  "capacity": 2500,
+  "occupied": 1900,
+  "status": "available"
+ },
+ {
+  "id": "hp-kem",
+  "type": "hospital",
+  "name": "KEM Hospital, Mumbai",
+  "lat": 19.0025,
+  "lng": 72.8417,
+  "capacity": 1800,
+  "occupied": 1400,
+  "status": "available"
+ },
+ {
+  "id": "hp-sskm",
+  "type": "hospital",
+  "name": "SSKM Hospital, Kolkata",
+  "lat": 22.5393,
+  "lng": 88.3437,
+  "capacity": 2000,
+  "occupied": 1500,
+  "status": "available"
+ },
+ {
+  "id": "hp-rggh",
+  "type": "hospital",
+  "name": "Rajiv Gandhi Govt General Hospital, Chennai",
+  "lat": 13.0817,
+  "lng": 80.2766,
+  "capacity": 2700,
+  "occupied": 2000,
+  "status": "available"
+ },
+ {
+  "id": "hp-victoria",
+  "type": "hospital",
+  "name": "Victoria Hospital, Bengaluru",
+  "lat": 12.9636,
+  "lng": 77.574,
+  "capacity": 1000,
+  "occupied": 750,
+  "status": "available"
+ },
+ {
+  "id": "hp-osmania",
+  "type": "hospital",
+  "name": "Osmania General Hospital, Hyderabad",
+  "lat": 17.3727,
+  "lng": 78.4752,
+  "capacity": 1100,
+  "occupied": 850,
+  "status": "available"
+ },
+ {
+  "id": "hp-sassoon",
+  "type": "hospital",
+  "name": "Sassoon General Hospital, Pune",
+  "lat": 18.528,
+  "lng": 73.873,
+  "capacity": 1300,
+  "occupied": 900,
+  "status": "available"
+ },
+ {
+  "id": "hp-civil-ahd",
+  "type": "hospital",
+  "name": "Civil Hospital, Ahmedabad",
+  "lat": 23.0525,
+  "lng": 72.603,
+  "capacity": 2000,
+  "occupied": 1500,
+  "status": "available"
+ },
+ {
+  "id": "hp-sms",
+  "type": "hospital",
+  "name": "SMS Hospital, Jaipur",
+  "lat": 26.905,
+  "lng": 75.815,
+  "capacity": 1800,
+  "occupied": 1350,
+  "status": "available"
+ },
+ {
+  "id": "hp-aiims-jodhpur",
+  "type": "hospital",
+  "name": "AIIMS Jodhpur",
+  "lat": 26.24,
+  "lng": 73.008,
+  "capacity": 960,
+  "occupied": 700,
+  "status": "available"
+ },
+ {
+  "id": "hp-kgmu",
+  "type": "hospital",
+  "name": "KGMU, Lucknow",
+  "lat": 26.869,
+  "lng": 80.916,
+  "capacity": 1500,
+  "occupied": 1100,
+  "status": "available"
+ },
+ {
+  "id": "hp-bhu",
+  "type": "hospital",
+  "name": "Sir Sunderlal Hospital (BHU), Varanasi",
+  "lat": 25.272,
+  "lng": 82.999,
+  "capacity": 1200,
+  "occupied": 900,
+  "status": "available"
+ },
+ {
+  "id": "hp-aiims-patna",
+  "type": "hospital",
+  "name": "AIIMS Patna",
+  "lat": 25.553,
+  "lng": 85.062,
+  "capacity": 960,
+  "occupied": 700,
+  "status": "available"
+ },
+ {
+  "id": "hp-gmch",
+  "type": "hospital",
+  "name": "GMCH, Guwahati",
+  "lat": 26.158,
+  "lng": 91.77,
+  "capacity": 1500,
+  "occupied": 1100,
+  "status": "available"
+ },
+ {
+  "id": "hp-rims",
+  "type": "hospital",
+  "name": "RIMS, Imphal",
+  "lat": 24.815,
+  "lng": 93.926,
+  "capacity": 1000,
+  "occupied": 700,
+  "status": "available"
+ },
+ {
+  "id": "hp-stnm",
+  "type": "hospital",
+  "name": "STNM Hospital, Gangtok",
+  "lat": 27.33,
+  "lng": 88.614,
+  "capacity": 300,
+  "occupied": 210,
+  "status": "available"
+ },
+ {
+  "id": "hp-aiims-bbsr",
+  "type": "hospital",
+  "name": "AIIMS Bhubaneswar",
+  "lat": 20.232,
+  "lng": 85.776,
+  "capacity": 960,
+  "occupied": 700,
+  "status": "available"
+ },
+ {
+  "id": "hp-kgh",
+  "type": "hospital",
+  "name": "King George Hospital, Visakhapatnam",
+  "lat": 17.709,
+  "lng": 83.306,
+  "capacity": 1100,
+  "occupied": 800,
+  "status": "available"
+ },
+ {
+  "id": "hp-ekm",
+  "type": "hospital",
+  "name": "General Hospital, Ernakulam",
+  "lat": 9.975,
+  "lng": 76.286,
+  "capacity": 800,
+  "occupied": 600,
+  "status": "available"
+ },
+ {
+  "id": "hp-tvm",
+  "type": "hospital",
+  "name": "Medical College Hospital, Thiruvananthapuram",
+  "lat": 8.523,
+  "lng": 76.928,
+  "capacity": 1500,
+  "occupied": 1100,
+  "status": "available"
+ },
+ {
+  "id": "hp-gmc-goa",
+  "type": "hospital",
+  "name": "Goa Medical College",
+  "lat": 15.463,
+  "lng": 73.853,
+  "capacity": 1000,
+  "occupied": 700,
+  "status": "available"
+ },
+ {
+  "id": "hp-doon",
+  "type": "hospital",
+  "name": "Doon Hospital, Dehradun",
+  "lat": 30.324,
+  "lng": 78.042,
+  "capacity": 500,
+  "occupied": 360,
+  "status": "available"
+ },
+ {
+  "id": "hp-igmc",
+  "type": "hospital",
+  "name": "IGMC, Shimla",
+  "lat": 31.105,
+  "lng": 77.166,
+  "capacity": 700,
+  "occupied": 500,
+  "status": "available"
+ },
+ {
+  "id": "hp-skims",
+  "type": "hospital",
+  "name": "SKIMS, Srinagar",
+  "lat": 34.137,
+  "lng": 74.803,
+  "capacity": 750,
+  "occupied": 550,
+  "status": "available"
+ },
+ {
+  "id": "hp-pgimer",
+  "type": "hospital",
+  "name": "PGIMER, Chandigarh",
+  "lat": 30.765,
+  "lng": 76.775,
+  "capacity": 2000,
+  "occupied": 1600,
+  "status": "available"
+ },
+ {
+  "id": "hp-aiims-bhopal",
+  "type": "hospital",
+  "name": "AIIMS Bhopal",
+  "lat": 23.207,
+  "lng": 77.46,
+  "capacity": 960,
+  "occupied": 700,
+  "status": "available"
+ },
+ {
+  "id": "hp-aiims-nagpur",
+  "type": "hospital",
+  "name": "AIIMS Nagpur",
+  "lat": 21.043,
+  "lng": 79.053,
+  "capacity": 750,
+  "occupied": 520,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-guwahati",
+  "type": "rescue",
+  "name": "NDRF team – Guwahati",
+  "lat": 26.11,
+  "lng": 91.6,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-kolkata",
+  "type": "rescue",
+  "name": "NDRF team – Kolkata (Haringhata)",
+  "lat": 22.96,
+  "lng": 88.57,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-cuttack",
+  "type": "rescue",
+  "name": "NDRF team – Cuttack (Mundali)",
+  "lat": 20.44,
+  "lng": 85.74,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-arakkonam",
+  "type": "rescue",
+  "name": "NDRF team – Arakkonam",
+  "lat": 13.08,
+  "lng": 79.67,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-pune",
+  "type": "rescue",
+  "name": "NDRF team – Pune",
+  "lat": 18.75,
+  "lng": 73.79,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-vadodara",
+  "type": "rescue",
+  "name": "NDRF team – Vadodara",
+  "lat": 22.31,
+  "lng": 73.18,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-bathinda",
+  "type": "rescue",
+  "name": "NDRF team – Bathinda",
+  "lat": 30.21,
+  "lng": 74.95,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-ghaziabad",
+  "type": "rescue",
+  "name": "NDRF team – Ghaziabad",
+  "lat": 28.67,
+  "lng": 77.44,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-patna",
+  "type": "rescue",
+  "name": "NDRF team – Patna (Bihta)",
+  "lat": 25.56,
+  "lng": 84.87,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-vijayawada",
+  "type": "rescue",
+  "name": "NDRF team – Vijayawada",
+  "lat": 16.43,
+  "lng": 80.56,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-varanasi",
+  "type": "rescue",
+  "name": "NDRF team – Varanasi",
+  "lat": 25.35,
+  "lng": 82.97,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ },
+ {
+  "id": "rs-ndrf-itanagar",
+  "type": "rescue",
+  "name": "NDRF team – Itanagar",
+  "lat": 27.15,
+  "lng": 93.75,
+  "capacity": 0,
+  "occupied": 0,
+  "status": "available"
+ }
+]
